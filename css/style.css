@@ -6,10 +6,13 @@ width: 1000px;
 height: 50vh;	
 }
 
-div.slider .item{
+div.slider .itemS{
 	flex-basis: 80%;
-	position: relative;	
+}
 
+div.slider .item{
+	height: 100%;
+	position: relative;	
 }
 div.slider .item .active{
 	display:block;	
@@ -66,7 +69,7 @@ div.miniatures .prev::after
 	height: 15px;
 	display: block;
 	border-radius: 50%;
-	background-color: rgb(100, 92, 92);
+	background-color: white;
 	cursor: pointer;
 	font-size: 5px;
 	text-align:center;

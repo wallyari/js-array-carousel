@@ -11,7 +11,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
 
         <!-- Font-Awesome cdn -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
         <!-- Bootstrap 5.1 -->
@@ -22,55 +22,25 @@
 
         <title>JS ARRAY CAROUSEL</title>
     </head>
-<body>
-    <main>
-        <!-- Container slider -->
-        <div class="container-fluid p-5">
-            <div class="row">
-                <div class="col-12 p-3">
-                    <div class="slider">
-                            <div class="items">
-                                <div class="item">
-                                    <img src="img/01.jpg" alt="Picture">                                                   
-                                </div>
-                            </div>
-        <!-- Container miniature -->            
-                    <div class="miniatures">
-                        <div class="miniature active">
-                            <img class="img-fluid" src="img/01.jpg" alt="Picture">                       
-                        </div>
-                        <div class="miniature active">
-                            <img class="img-fluid" src="img/02.jpg" alt="Picture">                       
-                        </div>
-                        <div class="miniature active">
-                            <img class="img-fluid" src="img/03.jpg" alt="Picture">                       
-                        </div>
-                        <div class="miniature active">
-                            <img class="img-fluid" src="img/04.jpg" alt="Picture">                       
-                        </div>
-                        <div class="miniature active">
-                            <img class="img-fluid" src="img/05.jpg" alt="Picture">                       
-                        </div>
-                       
-        <!-- Pulsanti -->
-                        <div class="prev"></div>
-                        <div class="next"></div>     
-                
-                    </div>                           
-                                          
+    <body>
+        <div class="container">
+            <div class="slider">
+                <div class="items">
                 </div>
+                <div class="imgWrapper_container">
 
-
-
+                    <div class="prev hidden">
+                        <i class="fa-solid fa-arrow-up"></i>
+                    </div>
+                    
+                    <div class="next">
+                        <i class="fa-solid fa-arrow-down"></i>
                     </div>
                 </div>
-            </div>             
+            </div>
         </div>
-
-    </main>
-    
-
-        <script type="text/javascript" src="js/main.js">
-    </script>
+        <!-- Script JS -->
+        <script type="text/javascript" src="js/main.js"></script>
     </body>
+
 </html>
